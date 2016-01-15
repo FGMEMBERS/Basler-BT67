@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<!-- 
+     ************************************************************************
+     Douglas DC-3 C47
+     January 2011 BARANGER Emmanuel
+     January 2012 modified by PAF team : http://http://equipe-flightgear.forumactif.com
+     ************************************************************************
+-->
+
+  <key n="103">
+    <name>g</name>
+    <desc>Landing Gear Up</desc>
+    <binding>
+      <command>nasal</command>
+      <script>
+        setprop("controls/gear/gear-down-lock", 0);
+        setprop("controls/gear/gear-down-cmd", 0);
+        settimer(func{setprop("controls/gear/gear-down-lock", 1);}, 6);
+      </script>
+    </binding>
+  </key>
+
+  <key n="100">
+    <name>d</name>
+    <desc>Crew door</desc>
+    <binding>
+      <command>nasal</command>
+      <script>dc3.CrewDoor.toggle();</script>
+    </binding>
+  </key>
+
+  <key n="71">
+    <name>G</name>
+    <desc>Landing Gear Down</desc>
+    <binding>
+      <command>nasal</command>
+      <script>
+        setprop("controls/gear/gear-down-lock", 0);
+        setprop("controls/gear/gear-down-cmd", 1);
+        settimer(func{setprop("controls/gear/gear-down-lock", 1);}, 6);
+      </script>
+    </binding>
+  </key>
+
+  <key n="68">
+    <name>D</name>
+    <desc>Passanger door</desc>
+    <binding>
+      <command>nasal</command>
+      <script>dc3.PassengerDoor.toggle();</script>
+    </binding>
+  </key>
+
+  <key n="69">
+    <name>E</name>
+    <desc>Cargo door</desc>
+    <binding>
+      <command>nasal</command>
+      <script>dc3.CargoDoor.toggle();</script>
+    </binding>
+  </key>
+
+  <key n="61"> 
+    <name>=</name>
+    <desc>Jump signal</desc>
+    <binding>
+      <command>property-toggle</command>
+      <property>controls/paratroopers/jump-signal</property>
+      <value>true</value>
+    </binding>
+  </key>
+
+  <key n="38"> 
+    <name>&amp;</name>
+    <desc>Call stewardess</desc>
+    <binding>
+      <command>property-assign</command>
+      <property>controls/stewardess/enable</property>
+      <value>true</value>
+    </binding>
+  </key>
+
+</PropertyList>
+

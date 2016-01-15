@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>propeller.ac</path>
+ 
+  <animation>
+    <object-name>bol</object-name>   
+    <object-name>propdisc</object-name>
+    <object-name>propblur</object-name>
+  </animation>   
+
+   <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+      <object-name>propdisc</object-name>
+      <object-name>propblur</object-name>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+   </effect>   
+
+  <model>
+    <name>Blade1</name>
+    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/bladeR.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Blade2</name>
+    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/bladeR.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+      <roll-deg> 120 </roll-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <name>Blade3</name>
+    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/bladeR.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+      <roll-deg> 240 </roll-deg>
+    </offsets>
+  </model>
+
+  <animation>
+    <name>helice</name>
+    <object-name>bol</object-name>   
+    <object-name>propdisc</object-name>
+    <object-name>propblur</object-name>
+    <object-name>Blade1</object-name>
+    <object-name>Blade2</object-name>   
+    <object-name>Blade3</object-name>
+  </animation>   
+
+  <!-- Mise en place des pales par defaut -->
+  <animation>
+    <type>select</type>
+    <object-name>Blade1</object-name>
+    <object-name>Blade2</object-name>   
+    <object-name>Blade3</object-name>
+    <condition>
+      <!--<or>-->
+        <less-than>
+          <property>engines/engine[1]/rpm</property>
+          <value>1000</value>
+        </less-than>
+        <!--<property>controls/engines/engine[1]/propeller-feather</property>
+      </or>-->
+    </condition>
+  </animation>
+
+  <!-- Selection Pales/disque en fonction de "RPM" -->
+  <animation>
+    <type>select</type>
+    <object-name>propdisc</object-name>
+    <condition>
+      <!--<and>-->
+        <greater-than>
+          <property>engines/engine[1]/rpm</property>
+          <value>1000</value>
+        </greater-than>
+        <!--<equals>
+          <property>controls/engines/engine[1]/propeller-feather</property>
+          <value> false </value>
+        </equals>
+      </and>-->
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>propblur</object-name>
+    <condition>
+      <!--<and>-->
+        <and>
+          <greater-than>
+            <property>engines/engine[1]/rpm</property>
+            <value>400.000</value>
+          </greater-than>
+          <less-than>
+            <property>engines/engine[1]/rpm</property>
+            <value>1000.001</value>
+          </less-than>
+        </and>
+        <!--<equals>
+          <property>controls/engines/engine[1]/propeller-feather</property>
+          <value> false </value>
+        </equals>
+      </and>-->
+    </condition>
+  </animation>
+
+  <!-- Rotation de l'helice -->
+  <animation>
+    <type>spin</type>
+    <object-name>helice</object-name>
+    <!--<condition>
+      <equals>
+        <property>controls/engines/engine[1]/propeller-feather</property>
+        <value> false </value>
+      </equals>
+    </condition>-->
+    <property>engines/engine[1]/rpm</property>
+    <factor> -0.479 </factor>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
