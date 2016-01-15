@@ -22,7 +22,7 @@
 
   <!-- Console Centrale -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Pedestal/center_console.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Pedestal/center_console.xml</path>
     <offsets>
       <x-m>  0.01 </x-m>
       <y-m>  0.00 </y-m>
@@ -32,7 +32,7 @@
 
   <!--Commandes Gear + Flaps-->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Gear-flaps/gear-flaps.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Gear-flaps/gear-flaps.xml</path>
     <offsets>
       <x-m>  0.01 </x-m>
       <y-m>  0.00 </y-m>
@@ -42,7 +42,7 @@
 
   <!--Cowl-flap command-->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Cowl-flaps/cowl-flaps.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Cowl-flaps/cowl-flaps.xml</path>
     <offsets>
       <x-m> 0.380 </x-m>
       <y-m> 0.825 </y-m>
@@ -54,7 +54,7 @@
 
   <!-- Manche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Handle/handle.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Handle/handle.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.0 </y-m>
@@ -64,7 +64,7 @@
 
   <!-- Pédales Pilote -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Pedals/pedals.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Pedals/pedals.xml</path>
     <offsets>
       <x-m>-0.090 </x-m>
       <y-m>-0.430 </y-m>
@@ -74,7 +74,7 @@
 
   <!-- Pédales Copilote -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Pedals/pedals.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Pedals/pedals.xml</path>
     <offsets>
       <x-m> -0.090  </x-m>
       <y-m>  0.430 </y-m>
@@ -84,7 +84,7 @@
 
   <!--   cap -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/cap/cap.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/cap/cap.xml</path>
     <offsets>
       <x-m>- 0.15 </x-m>
       <y-m>  0 </y-m>
@@ -94,7 +94,7 @@
    
  <!--   chronometre -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/chronograph/chronograph.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/chronograph/chronograph.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m> -0.612 </y-m>
@@ -104,7 +104,7 @@
   
   <!--Checklist -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/checklist/checklist1.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/checklist/checklist1.xml</path>
     <offsets>
       <x-m>  0 </x-m>
       <y-m> -0.693 </y-m>
@@ -112,7 +112,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/checklist/checklist2.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/checklist/checklist2.xml</path>
     <offsets>
       <x-m>  0 </x-m>
       <y-m> -0.613 </y-m>
@@ -122,7 +122,7 @@
   
  <!-- Pression hydraulique + Pression des trains-->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/hydgear/hydgear.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/hydgear/hydgear.xml</path>
     <offsets>
       <x-m> 0.12 </x-m>
       <y-m> 0.70 </y-m>
@@ -133,7 +133,7 @@
   
 <!--   ASI -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m> -0.510	  </y-m>
@@ -143,7 +143,7 @@
   
   <!--ALT -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/alt/alt.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/alt/alt.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m> -0.403 </y-m>
@@ -153,7 +153,7 @@
 
  <!--  AI -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/ai/ai.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m> -0.013 </x-m> <!-- -0.01 -->
       <y-m> -0.256  </y-m>
@@ -163,7 +163,7 @@
 
   <!-- TURN -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/turn/turn.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/turn/turn.xml</path>
     <offsets>
       <x-m> -0.015 </x-m>
       <y-m> -0.406 </y-m>
@@ -174,7 +174,7 @@
   <!--VSI-->
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/vsi/vsi.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> -0.013 </x-m>
       <y-m> -0.297 </y-m>
@@ -185,7 +185,7 @@
  
    <!--VOR -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/vor/vor.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/vor/vor.xml</path>
     <offsets>
       <x-m> -0.015 </x-m>
       <y-m> -0.403 </y-m>
@@ -195,7 +195,7 @@
  
   <!-- RADIO COMPASS -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/radio-compass/radio-compass.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/radio-compass/radio-compass.xml</path>
     <offsets>
       <x-m> -0.010 </x-m>
       <y-m> -0.510 </y-m>
@@ -205,7 +205,7 @@
   
      <!--rmi -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/rmi/rmi.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/rmi/rmi.xml</path>
     <offsets>
       <x-m> -0.013 </x-m>
       <y-m> -0.291 </y-m> <!-- -0.264 -->
@@ -216,7 +216,7 @@
 
   <!-- Manifold -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/manifold/manifold.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/manifold/manifold.xml</path>
     <offsets>
       <x-m> -0.015 </x-m>
       <y-m>  0.150 </y-m>
@@ -226,7 +226,7 @@
  
   <!-- RPM -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/rpm/rpm.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/rpm/rpm.xml</path>
     <offsets>
       <x-m> -0.013 </x-m>
       <y-m> -0.150 </y-m>
@@ -236,7 +236,7 @@
  
   <!-- Oil pressure -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/oil/oil.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/oil/oil.xml</path>
     <offsets>
       <x-m> -0.013 </x-m>
       <y-m> -0.050 </y-m>
@@ -246,7 +246,7 @@
   
   <!-- Fuel pressure -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/fuelpress/fuelpress.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/fuelpress/fuelpress.xml</path>
     <offsets>
       <x-m> -0.015 </x-m>
       <y-m>  0.052 </y-m>
@@ -256,7 +256,7 @@
  
   <!-- Pilot auto sterry mark III-->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/sperry/sperry.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/sperry/sperry.xml</path>
     <offsets>
       <x-m>  -0.01 </x-m>
       <y-m>  0.006 </y-m>
@@ -267,7 +267,7 @@
   <!-- Panel copilote -->
   <!-- ASI -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.279 </y-m>
@@ -277,7 +277,7 @@
   
   <!-- tempérture air extérieur -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/temp/temp.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/temp/temp.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.384 </y-m>
@@ -287,7 +287,7 @@
 
   <!-- ALT -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/alt/alt.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/alt/alt.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.484 </y-m>
@@ -297,7 +297,7 @@
   
   <!-- oil temp -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/oiltemp/oiltemp.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/oiltemp/oiltemp.xml</path>
     <offsets>
       <x-m> -0.01</x-m>
       <y-m>  0.279 </y-m>
@@ -307,7 +307,7 @@
 
   <!-- tempérture cylindre -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/cyl/cyl.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/cyl/cyl.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.384 </y-m>
@@ -317,7 +317,7 @@
 
   <!-- tempérture carb -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/carb/carb.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/carb/carb.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.484 </y-m>
@@ -327,7 +327,7 @@
 
   <!-- gauges fuel -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/fuel/fuel.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/fuel/fuel.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.278 </y-m>
@@ -337,7 +337,7 @@
   
   <!-- Hyd. pressure -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/hydpress/hydpress.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/hydpress/hydpress.xml</path>
     <offsets>
       <x-m> -0.01 </x-m>
       <y-m>  0.378 </y-m>
@@ -347,7 +347,7 @@
   
     <!-- De-icing. pressure -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/deicepress/deicepress.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/deicepress/deicepress.xml</path>
     <offsets>
       <x-m> -0.015 </x-m>
       <y-m>  0.473 </y-m>
@@ -356,7 +356,7 @@
   </model>
     <!-- Warning -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Panel/Instruments/warning/warning.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Panel/Instruments/warning/warning.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>

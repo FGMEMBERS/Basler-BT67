@@ -3,49 +3,49 @@
 <PropertyList>
 
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 0 </roll-deg>
     </offsets>
  </model>
  
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 51.429 </roll-deg>
     </offsets>
  </model>
 
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 102.857 </roll-deg>
     </offsets>
  </model>
 
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 154.28 </roll-deg>
     </offsets>
  </model>
 
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 205.714 </roll-deg>
     </offsets>
  </model>
 
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 257.144 </roll-deg>
     </offsets>
  </model>
 
   <model>
-   <path>Aircraft/Douglas-Dc3/Models/Engines/r1830.ac</path>
+   <path>Aircraft/Basler-BT67/Models/Engines/r1830.ac</path>
     <offsets>
       <roll-deg> 308.571  </roll-deg>
     </offsets>

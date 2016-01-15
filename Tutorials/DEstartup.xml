@@ -9,7 +9,7 @@
 -->
 
   <name>DE-2-Startup</name>
-  <description>Mit diesem Tutorial lernen Sie wie man die Motoren der DC-3 zu starten</description>
+  <description>Mit diesem Tutorial lernen Sie wie man die Motoren der BT67 zu starten</description>
   
   <init>
     <set>

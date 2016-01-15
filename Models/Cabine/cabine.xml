@@ -164,12 +164,12 @@
   <!-- Les détails -->
   <model>
     <name>AllDetails</name>
-    <path>Aircraft/Douglas-Dc3/Models/Cabine/Details/all-details.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cabine/Details/all-details.xml</path>
   </model>
 
   <model>
     <name>AllPoignees</name>
-    <path>Aircraft/Douglas-Dc3/Models/Cabine/Details/all-poigneesportes.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cabine/Details/all-poigneesportes.xml</path>
   </model>
 
   <animation>
@@ -196,7 +196,7 @@
   <!-- Les sièges -->
   <model>
     <name>AllSeats</name>
-    <path>Aircraft/Douglas-Dc3/Models/Cabine/seats/all-seats.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cabine/seats/all-seats.xml</path>
   </model>
 
   <animation>

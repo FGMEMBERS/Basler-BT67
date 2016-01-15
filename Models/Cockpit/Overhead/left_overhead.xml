@@ -44,7 +44,7 @@
   </animation>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/parachute_signal.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/parachute_signal.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m> -0.180 </y-m>
@@ -76,7 +76,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/battery_master.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/battery_master.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m> -0.147 </y-m>
@@ -108,7 +108,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/passing_light.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/passing_light.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m> -0.114 </y-m>
@@ -140,7 +140,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/landing_lightL.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/landing_lightL.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m> -0.081 </y-m>
@@ -149,7 +149,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/landing_lightR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/landing_lightR.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m> -0.048 </y-m>
@@ -181,7 +181,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/running_light.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/running_light.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m> -0.015 </y-m>
@@ -213,7 +213,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/tail_light.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/tail_light.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.018 </y-m>
@@ -245,7 +245,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/windshield_deicer_pump.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/windshield_deicer_pump.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.051 </y-m>
@@ -277,7 +277,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/pitot_heaterL.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/pitot_heaterL.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.084 </y-m>
@@ -286,7 +286,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/pitot_heaterR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/pitot_heaterR.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.117 </y-m>
@@ -318,7 +318,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/oil_dilutionL.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/oil_dilutionL.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.150 </y-m>
@@ -327,7 +327,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/oil_dilutionR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/oil_dilutionR.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.183 </y-m>
@@ -359,7 +359,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/compass_light.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/compass_light.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.080 </y-m>
@@ -391,7 +391,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/prop_featherL.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/prop_featherL.xml</path>
     <offsets>
       <x-m>  0.005 </x-m>
       <y-m>  0.000 </y-m>
@@ -423,7 +423,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/instrument_light.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/instrument_light.xml</path>
     <offsets>
       <x-m>  0.001 </x-m>
       <y-m>  0.080 </y-m>
@@ -455,7 +455,7 @@
   </text>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/Instruments/switch/propeller_deicer.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/Instruments/switch/propeller_deicer.xml</path>
     <offsets>
       <x-m>  0.002 </x-m>
       <y-m>  0.160 </y-m>

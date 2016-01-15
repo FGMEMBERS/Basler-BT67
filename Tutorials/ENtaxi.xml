@@ -11,7 +11,7 @@
 
   <name>EN-3-TAXI</name>
   <description>
-With the help of this tutorial, you will be able to taxi your DC-3.
+With the help of this tutorial, you will be able to taxi your BT-67.
 
   </description>
 
@@ -110,7 +110,7 @@ With the help of this tutorial, you will be able to taxi your DC-3.
   </step>
 
   <step>
-    <message>The DC-3, conduct is provided by differential brake</message>
+    <message>The BT-67 steering is provided by differential brake</message>
     <view>
       <heading-offset-deg>0</heading-offset-deg>
       <pitch-offset-deg>-13</pitch-offset-deg>

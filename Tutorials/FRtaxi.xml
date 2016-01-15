@@ -11,7 +11,7 @@
 
   <name>FR-3-TAXI</name>
   <description>
-Avec l'aide de ce tutoriel, vous serez capables de faire un roulage au sol avec votre DC-3
+Avec l'aide de ce tutoriel, vous serez capables de faire un roulage au sol avec votre BT-67
 
   </description>
 
@@ -128,7 +128,7 @@ Avec l'aide de ce tutoriel, vous serez capables de faire un roulage au sol avec 
   </step>
 
   <step>
-    <message>Sur le DC-3, la direction est assuree par des freins differentiels</message>
+    <message>Sur le BT-67, la direction est assuree par des freins differentiels</message>
     <view>
       <heading-offset-deg>0</heading-offset-deg>
       <pitch-offset-deg>-13</pitch-offset-deg>
@@ -236,6 +236,6 @@ Avec l'aide de ce tutoriel, vous serez capables de faire un roulage au sol avec 
   </step>
   
   <end>
-    <message>Avec un peu d'entrainement, vous serez capable de diriger correctement le DC-3</message>
+    <message>Avec un peu d'entrainement, vous serez capable de diriger correctement le BT-67</message>
   </end>
 </PropertyList>

@@ -21,7 +21,7 @@
 
   <model>
     <name>Blade1</name>
-    <path>Aircraft/Douglas-Dc3/Models/Engines/Propeller/bladeR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/bladeR.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -31,7 +31,7 @@
 
   <model>
     <name>Blade2</name>
-    <path>Aircraft/Douglas-Dc3/Models/Engines/Propeller/bladeR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/bladeR.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -42,7 +42,7 @@
 
   <model>
     <name>Blade3</name>
-    <path>Aircraft/Douglas-Dc3/Models/Engines/Propeller/bladeR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/bladeR.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>

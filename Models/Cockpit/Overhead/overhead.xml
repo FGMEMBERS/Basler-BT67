@@ -51,7 +51,7 @@
   </animation>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/left_overhead.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/left_overhead.xml</path>
     <offsets>
       <x-m>  0.095 </x-m>
       <y-m> -0.315 </y-m>
@@ -63,7 +63,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/center_overhead.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/center_overhead.xml</path>
     <offsets>
       <x-m> -0.088 </x-m>
       <y-m>  0.000 </y-m>
@@ -75,7 +75,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/Overhead/right_overhead.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/Overhead/right_overhead.xml</path>
     <offsets>
       <x-m>  0.095 </x-m>
       <y-m>  0.315 </y-m>
