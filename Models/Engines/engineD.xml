@@ -3,11 +3,11 @@
 <PropertyList>
 
   <model>
-    <path>Aircraft/Basler-BT67/Models/Engines/engine.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/Engines/engine.xml</path>
   </model>
 
   <model>
-    <path>Aircraft/Basler-BT67/Models/Engines/Propeller/propellerR.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/Engines/Propeller/propellerR.xml</path>
     <offsets>
       <x-m> -0.610 </x-m>
       <y-m>  0.000 </y-m>

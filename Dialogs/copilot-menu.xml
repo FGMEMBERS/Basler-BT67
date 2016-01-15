@@ -5,16 +5,23 @@
 <!-- 
      ************************************************************************
      Douglas DC-3 C47
-     January 2011 BARANGER Emmanuel
      January 2012 modified by PAF team : http://http://equipe-flightgear.forumactif.com
-	 January 2016 modified for Basler BT67
      ************************************************************************
 -->
 
   <default>
     <menu n="10">
-      <label>Basler BT67 Settings</label>
+      <label>Douglas DC-3 C47</label>
       <enabled type="bool">true</enabled>
+      <item>
+        <label>Select MP-pilot</label>
+        <binding>
+          <command>nasal</command>
+          <script>
+            dual_control_tools.copilot_dialog.show(aircraft_dual_control.pilot_type);
+          </script>
+        </binding>
+      </item>
       <item>
         <label>Options</label>
         <binding>
@@ -22,24 +29,10 @@
           <script>dc3.config_dlg.open()</script>
         </binding>
       </item>
-      <item>
-        <label>Select Livery</label>
-        <binding>
-          <command>nasal</command>
-          <script>aircraft.livery.dialog.toggle()</script>
-        </binding>
-      </item>
-      <!--<item>
-        <label>Select MP-copilot</label>
-        <binding>
-          <command>nasal</command>
-          <script>
-            dual_control_tools.copilot_dialog.show(aircraft_dual_control.copilot_type);
-          </script>
-        </binding>
-      </item>-->
     </menu>
   </default>
 
 </PropertyList>
+
+
 

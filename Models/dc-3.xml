@@ -2,9 +2,19 @@
 
 <PropertyList>
 
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/Douglas-Dc3/Models/Liveries", 10);
+    </load>
+
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
+
   <!-- Le fuselage -->
   <model>
-    <path>Aircraft/Basler-BT67/Models/main.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/main.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -15,7 +25,7 @@
   <!-- Les roues -->
   <model>
     <name>LesRoues</name>
-    <path>Aircraft/Basler-BT67/Models/wheels.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/wheels.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -26,7 +36,7 @@
   <!-- Une ombre pour OSG -->
   <model>
     <name>OmbreRoues</name>
-    <path>Aircraft/Basler-BT67/Models/shadow.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/shadow.xml</path>
     <offsets>
       <x-m> 0.85 </x-m>
       <y-m> 0 </y-m>
@@ -49,7 +59,7 @@
   <!-- Les flotteurs -->
   <model>
     <name>LesFlotteurs</name>
-    <path>Aircraft/Basler-BT67/Models/floats.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/floats.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -60,11 +70,11 @@
   <!-- Une ombre pour OSG -->
   <model>
     <name>OmbreFlotteurs</name>
-    <path>Aircraft/Basler-BT67/Models/shadowA.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/shadowA.xml</path>
     <offsets>
       <x-m> 0.0 </x-m>
       <y-m> 0.0 </y-m>
-      <z-m> -0.2 </z-m>
+      <z-m>-0.2 </z-m>
     </offsets>
   </model>
 

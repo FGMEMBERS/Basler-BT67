@@ -7,18 +7,17 @@
      Douglas DC-3 C47
      January 2011 BARANGER Emmanuel
      January 2012 modified by PAF team : http://http://equipe-flightgear.forumactif.com
-	 January 2016 BT-67 conversion
      ************************************************************************
 -->
 
   <sim> 
-    <author>BARANGER Emmanuel (3D), PAF Team (Systems,3D,FDM), REDPATH Jonathan (BT-67 conversion)</author>
+    <author>BARANGER Emmanuel (3D), PAF Team (Systems,3D,FDM)</author>
     <aircraft-version>1.0</aircraft-version>
     <status>Alpha</status>
    
     <fuel-fraction>0.8</fuel-fraction>
 
-    <tutorials include="Tutorials/bt67-tutorial.xml"/>
+    <tutorials include="Tutorials/dc-3-tutorials.xml"/>
   
     <flaps>
       <setting>0.00</setting>
@@ -30,11 +29,11 @@
 
     <submodels>
       <serviceable type="bool">true</serviceable>
-      <path>Aircraft/Basler-BT67/Models/Effects/Submodels/submodels.xml</path>
+      <path>Aircraft/Douglas-Dc3/Models/Effects/Submodels/submodels.xml</path>
     </submodels>
 
     <help>
-      <title>Basler BT-67</title>
+      <title>Douglas DC-3 C47</title>
       <key>
         <name>d</name>
         <desc>Open/Close crew door</desc>
@@ -127,7 +126,7 @@
       </static-lod>
     </rendering>
 
-    <menubar include="Dialogs/bt67-menu.xml"/>
+    <menubar include="Dialogs/dc-3-menu.xml"/>
 
     <!-- ############################### -->
     <!-- ######## DUAL CONTROL ######### -->
@@ -404,28 +403,28 @@
   </engines>
 
   <input>
-    <keyboard include="Nasal/bt67-keyboard.xml"/>
+    <keyboard include="Nasal/dc-3-keyboard.xml"/>
   </input>
 
   <nasal>
     <doors>
-      <file>Aircraft/Basler-BT67/Nasal/doors.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/doors.nas</file>
     </doors>
     <para>
-      <file>Aircraft/Basler-BT67/Nasal/paratroopers.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/paratroopers.nas</file>
     </para>
     <dc3>
-      <file>Aircraft/Basler-BT67/Nasal/dc3.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/electrical.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/interpolate.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/liveries.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/light.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/immat.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/hydraulic.nas</file>
-      <file>Aircraft/Basler-BT67/Nasal/wipers.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/dc3.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/electrical.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/interpolate.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/liveries.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/light.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/immat.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/hydraulic.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/wipers.nas</file>
     </dc3>
     <chronograph>
-      <file>Aircraft/Basler-BT67/Nasal/chronograph.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/chronograph.nas</file>
     </chronograph>
     <VHF22>
      <file>Aircraft/Generic/DualControl/Instruments/VHF-22/ctl22.nas</file>

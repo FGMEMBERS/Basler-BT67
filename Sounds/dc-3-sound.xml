@@ -31,7 +31,6 @@
        Verrouillage_trains.wav
        Volets.wav
 
-	   Modified for the Basler BT-67
 -->
 
 <PropertyList>
@@ -39,7 +38,7 @@
   <fx>
     <crank>
       <name>engstart1</name>
-      <path>Aircraft/Basler-BT67/Sounds/Lancement.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Lancement.wav</path>
       <property>/engines/engine[0]/cranking</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -57,7 +56,7 @@
 
     <crank>
       <name>cough1</name>
-      <path>Aircraft/Basler-BT67/Sounds/Demarrage.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Demarrage.wav</path>
       <property>/engines/engine[0]/running</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -76,7 +75,7 @@
     <crank>
       <name>crank1</name>
       <mode>looped</mode>
-      <path>Aircraft/Basler-BT67/Sounds/Lancement.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Lancement.wav</path>
       <condition>
         <property>engines/engine[0]/cranking</property>
         <not>
@@ -92,7 +91,7 @@
 
     <engine>
       <name>engine early start1</name>
-      <path>Aircraft/Basler-BT67/Sounds/Demarrage.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Demarrage.wav</path>
       <property>/engines/engine[0]/cranking</property>
       <condition>
         <less-than>
@@ -124,7 +123,7 @@
  <engine>
         <name>engine1_idle</name>
         <mode>looped</mode>
-        <path>Aircraft/Basler-BT67/Sounds/Ralenti.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Ralenti.wav</path>
         <condition>
             <and>
                 <property>engines/engine[0]/running</property>
@@ -160,7 +159,7 @@
 
   <stopext>
     <name>stopextLeft</name>
-    <path>Aircraft/Basler-BT67/Sounds/Arret_moteur_ext1.wav</path>
+    <path>Aircraft/Douglas-Dc3/Sounds/Arret_moteur_ext1.wav</path>
     <condition>
       <not>
         <property>/engines/engine[0]/running</property>
@@ -182,7 +181,7 @@
 
   <stop>
 	<name>stopLeft</name>
-	<path>Aircraft/Basler-BT67/Sounds/Arret_moteur_int1.wav</path>
+	<path>Aircraft/Douglas-Dc3/Sounds/Arret_moteur_int1.wav</path>
 	<condition>
 	   <not>
 	     <property>/engines/engine[0]/running</property>
@@ -207,7 +206,7 @@
   <engine>
 	<name>engineLeft</name>
 	 <mode>looped</mode>
-	  <path>Aircraft/Basler-BT67/Sounds/Croisiere_ext_1.wav</path>
+	  <path>Aircraft/Douglas-Dc3/Sounds/Croisiere_ext_1.wav</path>
 	<condition>
 	   <and>
 	    <property>/engines/engine[0]/running</property>
@@ -241,7 +240,7 @@
  <engine>
 	<name>engineextslowLeft</name>
 	  <mode>looped</mode>
-		<path>Aircraft/Basler-BT67/Sounds/Croisiere_ext_2.wav</path>
+		<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_ext_2.wav</path>
 	<condition>
 	  <and>
 		<property>/engines/engine[0]/running</property>
@@ -275,7 +274,7 @@
   <propellerhigh>
 			<name>propellerhighLeft</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Croisiere_int_1.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_int_1.wav</path>
 			<condition>
 				<and>
 					<property>/engines/engine[0]/running</property>
@@ -318,7 +317,7 @@
 		<propellerlow>
 			<name>propellerlowLeft</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Croisiere_int_2.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_int_2.wav</path>
 			<condition>
 				<and>
 					<property>/engines/engine[0]/running</property>
@@ -361,7 +360,7 @@
 
  <crank>
       <name>engstart2</name>
-      <path>Aircraft/Basler-BT67/Sounds/Lancement.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Lancement.wav</path>
       <property>/engines/engine[1]/cranking</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -379,7 +378,7 @@
 
     <crank>
       <name>cough2</name>
-      <path>Aircraft/Basler-BT67/Sounds/Demarrage.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Demarrage.wav</path>
       <property>/engines/engine[1]/running</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -398,7 +397,7 @@
     <crank>
       <name>crank2</name>
       <mode>looped</mode>
-      <path>Aircraft/Basler-BT67/Sounds/Lancement.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Lancement.wav</path>
       <condition>
         <property>engines/engine[1]/cranking</property>
         <not>
@@ -414,7 +413,7 @@
 
     <engine>
       <name>engine early start2</name>
-      <path>Aircraft/Basler-BT67/Sounds/Demarrage.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Demarrage.wav</path>
       <property>/engines/engine[1]/cranking</property>
       <condition>
         <less-than>
@@ -445,7 +444,7 @@
 <engine>
         <name>engine2_idle</name>
         <mode>looped</mode>
-        <path>Aircraft/Basler-BT67/Sounds/Ralenti.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Ralenti.wav</path>
         <condition>
             <and>
                 <property>engines/engine[1]/running</property>
@@ -480,7 +479,7 @@
 
 		<stopext>
 			<name>stopextRight</name>
-			<path>Aircraft/Basler-BT67/Sounds/Arret_moteur_ext1.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Arret_moteur_ext1.wav</path>
 			<condition>
 				<not>
 					<property>/engines/engine[1]/running</property>
@@ -502,7 +501,7 @@
 
 		<stop>
 			<name>stopRight</name>
-			<path>Aircraft/Basler-BT67/Sounds/Arret_moteur_int1.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Arret_moteur_int1.wav</path>
 			<condition>
 				<not>
 					<property>/engines/engine[1]/running</property>
@@ -525,7 +524,7 @@
 		<engine>
 			<name>engineRight</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Croisiere_ext_1.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_ext_1.wav</path>
 			<condition>
 				<and>
 					<property>/engines/engine[1]/running</property>
@@ -559,7 +558,7 @@
 		<engine>
 			<name>engineextslowRight</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Croisiere_ext_2.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_ext_2.wav</path>
 			<condition>
 				<and>
 					<property>/engines/engine[1]/running</property>
@@ -593,7 +592,7 @@
 		<propellerhigh>
 			<name>propellerhighRight</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Croisiere_int_1.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_int_1.wav</path>
 			<condition>
 				<and>
 					<property>/engines/engine[1]/running</property>
@@ -636,7 +635,7 @@
 		<propellerlow>
 			<name>propellerlowRight</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Croisiere_int_2.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Croisiere_int_2.wav</path>
 			<condition>
 				<and>
 					<property>/engines/engine[1]/running</property>
@@ -669,7 +668,7 @@
 		<rumble>
 			<name>rumble</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Roulage.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Roulage.wav</path>
 			<condition>
 				<or>
 					<property>/gear/gear[0]/wow</property>
@@ -732,7 +731,7 @@
  <flap>
       <name>flaps</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Basler-BT67/Sounds/Volets.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Volets.wav</path>
       <property>surface-positions/flap-pos-norm</property>
       <volume>
         <max>1</max>
@@ -744,7 +743,7 @@
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Basler-BT67/Sounds/Trains.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Trains.wav</path>
       <property>gear/gear[0]/position-norm</property>
       <volume>
         <max>1</max>
@@ -753,7 +752,7 @@
 
     <gear-lock>
       <name>gear-lock</name>
-      <path>Aircraft/Basler-BT67/Sounds/Verrouillage_trains.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Verrouillage_trains.wav</path>
       <condition>
         <equals>
           <property>gear/gear[0]/position-norm</property>
@@ -767,7 +766,7 @@
    
     <squeal>
       <name>squeal</name>
-      <path>Aircraft/Basler-BT67/Sounds/Freinage.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Freinage.wav</path>
       <condition>
         <or>
           <property>gear/gear[0]/wow</property>
@@ -799,7 +798,7 @@
     <wind>
       <name>wind</name>
       <mode>looped</mode>
-      <path>Aircraft/Basler-BT67/Sounds/Vent.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/Vent.wav</path>
       <property>/velocities/airspeed-kt</property>
       <volume>
 				<property>/position/altitude-ft</property>
@@ -823,7 +822,7 @@
                      
 		<click>
       <name>clickOn</name>
-      <path>Aircraft/Basler-BT67/Sounds/click.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/click.wav</path>
       <condition>
         <property>sim/model/sound/click</property>
       </condition>
@@ -834,7 +833,7 @@
 
     <click>
       <name>clickOff</name>
-      <path>Aircraft/Basler-BT67/Sounds/click.wav</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/click.wav</path>
       <condition>
         <not><property>sim/model/sound/click</property></not>
       </condition>
@@ -846,7 +845,7 @@
     <pump>
         <name>fuel pumpL</name>
         <mode>looped</mode>
-        <path>Aircraft/Basler-BT67/Sounds/Pompe_gavage.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Pompe_gavage.wav</path>
         <condition>
           <and>
             <greater-than>
@@ -874,7 +873,7 @@
     <pump>
         <name>fuel pumpL witout fuel</name>
         <mode>looped</mode>
-        <path>Aircraft/Basler-BT67/Sounds/Pompe_gavage_sans_carburant.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Pompe_gavage_sans_carburant.wav</path>
         <condition>
           <and>
             <greater-than>
@@ -902,7 +901,7 @@
     <pump>
         <name>fuel pumpR</name>
         <mode>looped</mode>
-        <path>Aircraft/Basler-BT67/Sounds/Pompe_gavage.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Pompe_gavage.wav</path>
         <condition>
           <and>
             <greater-than>
@@ -930,7 +929,7 @@
     <pump>
         <name>fuel pumpR witout fuel</name>
         <mode>looped</mode>
-        <path>Aircraft/Basler-BT67/Sounds/Pompe_gavage_sans_carburant.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Pompe_gavage_sans_carburant.wav</path>
         <condition>
           <and>
             <greater-than>
@@ -959,7 +958,7 @@
  <gear-warn>
             <name>gear warning</name>
             <mode>looped</mode>
-            <path>Aircraft/Basler-BT67/Sounds/Alarme_Trains.wav</path>
+            <path>Aircraft/Douglas-Dc3/Sounds/Alarme_Trains.wav</path>
             <condition>
              <not>
                <property>controls/electric/circuitbreaker/cb_0_6</property>
@@ -1010,7 +1009,7 @@
                             -->     <!-- A tester et à régler
 <stall>
             <name>stall</name>
-            <path>Aircraft/Basler-BT67/Sounds/Alarme_decrochage.wav</path>
+            <path>Aircraft/Douglas-Dc3/Sounds/Alarme_decrochage.wav</path>
             <condition>
               <not>
                 <property>gear/gear[0]/wow</property>
@@ -1028,7 +1027,7 @@
 <!--stall>
 			<name>stall</name>
 			<mode>looped</mode>
-			<path>Aircraft/Basler-BT67/Sounds/Alarme_Trains.wav</path>
+			<path>Aircraft/Douglas-Dc3/Sounds/Alarme_Trains.wav</path>
 				<condition>
 					<and>
 							<property>controls/electric/battery-switch</property>
@@ -1053,7 +1052,7 @@
                                                        <!-- a venir avec l'hotesse :-)
  <seatbelt>
         <name>Seatbelt sign</name>
-        <path>Aircraft/Basler-BT67/Sounds/Appel_hotesse.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Appel_hotesse.wav</path>
         <mode>once</mode>
         <condition>
             <property>sim/sound/seatbelt-sign</property>
@@ -1071,7 +1070,7 @@
     </seatbelt>
     <nosmoke>
         <name>No smoking sign</name>
-        <path>Aircraft/Basler-BT67/Sounds/Appel_hotesse.wav</path>
+        <path>Aircraft/Douglas-Dc3/Sounds/Appel_hotesse.wav</path>
         <mode>once</mode>
         <condition>
             <property>sim/sound/no-smoking-sign</property>

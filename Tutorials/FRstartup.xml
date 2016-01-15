@@ -11,7 +11,7 @@
 
   <name>FR-2-Demarrage</name>
   <description>
-Ce tutoriel va vous apprendre la procedure de demarrage les moteurs du BT-67.
+Ce tutoriel va vous apprendre la procedure de demarrage les moteurs du DC-3.
 
 
   </description>
@@ -94,7 +94,7 @@ Ce tutoriel va vous apprendre la procedure de demarrage les moteurs du BT-67.
 
 
   <step>
-    <message>Bienvenue a bord du BT-67, il est grand temps de demarrer les moteurs !</message>
+    <message>Bienvenue a bord du DC-3, il est grand temps de demarrer les moteurs !</message>
   </step>
   
   <step>
@@ -626,6 +626,6 @@ Ce tutoriel va vous apprendre la procedure de demarrage les moteurs du BT-67.
   </step>
 
   <end>
-    <message>Felicitation, vous venez de demarrer les moteurs du BT-67</message>
+    <message>Felicitation, vous venez de demarrer les moteurs du DC-3</message>
   </end>
 </PropertyList>

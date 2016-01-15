@@ -1,1 +1,1 @@
-aircraft.livery.init("Aircraft/Basler-BT67/Models/Liveries");
+aircraft.livery.init("Aircraft/Douglas-Dc3/Models/Liveries");

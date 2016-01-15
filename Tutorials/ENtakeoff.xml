@@ -11,7 +11,7 @@
 
   <name>EN-4-Take off</name>
   <description>
-With the help of this tutorial, you will be able to take off your BT-67 in the state of the art.
+With the help of this tutorial, you will be able to take off your DC-3 in the state of the art.
 
 take-off procedure :
   -
@@ -622,7 +622,7 @@ take-off procedure :
   </step>
 
   <end>
-    <message>Congratulations, you take off the BT-67!</message>
+    <message>Congratulations, you take off the DC-3!</message>
   </end>
 
 </PropertyList>

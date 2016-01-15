@@ -5,19 +5,18 @@
       Douglas DC-3 C47
       January 2011 BARANGER Emmanuel
       January 2012 PAF Team
-	  January 2016 REDPATH Jonathan (BT-67 conversion)
      ************************************************************************
 -->
 
-<PropertyList include="BT-67-base.xml">
+<PropertyList include="dc-3-base.xml">
 
   <sim>
-    <description>Basler BT-67 (JSBsim)</description>
+    <description>Douglas DC-3/C-47 (JSBsim)</description>
     <flight-model>jsb</flight-model>
-    <aero>BT-67-jsbsim</aero>
+    <aero>dc-3-jsbsim</aero>
 
     <startup>
-      <splash-texture>Aircraft/Basler-BT67/BT67-splash.png</splash-texture>
+      <splash-texture>Aircraft/Douglas-Dc3/dc-3-splash.png</splash-texture>
     </startup>
     
     <!-- freeze fuel = false: fuel consumption calculated by the FDM -->
@@ -26,7 +25,7 @@
     </freeze>
 
     <model>
-      <path>Aircraft/Basler-BT67/Models/BT67-jsbsim.xml</path>
+      <path>Aircraft/Douglas-Dc3/Models/dc-3-jsbsim.xml</path>
       <livery>
         <file type="string">default</file>
       </livery>
@@ -39,7 +38,7 @@
     </multiplay>
 
     <sound>
-      <path>Aircraft/Basler-BT67/Sounds/bt67-sound.xml</path>
+      <path>Aircraft/Douglas-Dc3/Sounds/dc-3-sound.xml</path>
     </sound>
   </sim>
 
@@ -110,13 +109,22 @@
   </consumables>
 
   <!-- ################################################### -->
-  <!-- ########FUEL Management ######### -->
-  
+  <!-- ######## DUAL CONTROL and FUEL Management ######### -->
+  <nasal>    
+    <dual_control_tools>
+      <file>Aircraft/Douglas-Dc3/DualControl/dual-control-tools.nas</file>
+    </dual_control_tools>
+    <aircraft_dual_control>
+      <file>Aircraft/Douglas-Dc3/DualControl/dc-3-dual-control.nas</file>
+    </aircraft_dual_control>
+    <dual_control>
+      <file>Aircraft/Douglas-Dc3/DualControl/pilot-dual-control.nas</file>
+    </dual_control>
     <fuel>
-      <file>Aircraft/Basler-BT67/Nasal/fuel-jsbsim.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/fuel-jsbsim.nas</file>
     </fuel>
   </nasal>
-  <!-- ########FUEL Management ######### -->
+  <!-- ######## DUAL CONTROL and FUEL Management ######### -->
   <!-- ################################################### -->
     
 </PropertyList>

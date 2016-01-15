@@ -11,7 +11,7 @@
 
   <name>FR-4-Decollage</name>
   <description>
-Avec l'aide de ce tutoriel, vous serez capables de faire decoller votre BT-67 dans les regles de l'art.
+Avec l'aide de ce tutoriel, vous serez capables de faire decoller votre DC-3 dans les regles de l'art.
 
 La procedure de decollage est la suivante :
   -
@@ -661,7 +661,7 @@ La procedure de decollage est la suivante :
   </step>
 
   <end>
-    <message>Felicitation, vous venez de faire decoller le BT-67 !</message>
+    <message>Felicitation, vous venez de faire decoller le DC-3 !</message>
   </end>
 
 </PropertyList>

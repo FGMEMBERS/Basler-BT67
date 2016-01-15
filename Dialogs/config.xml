@@ -6,7 +6,6 @@
      ************************************************************************
      Douglas DC-3 C47
      January 2012 modified by PAF team : http://http://equipe-flightgear.forumactif.com
-	 January 2016 modified for the BT-67 conversion REDPATH Jonathan
      ************************************************************************
 -->
 
@@ -21,7 +20,7 @@
       <stretch>1</stretch>
     </empty>		
     <text>
-      <label>Basler BT-67 Options</label>
+      <label>Douglas DC-3 C47 options</label>
     </text>
     <empty>
       <stretch>1</stretch>
