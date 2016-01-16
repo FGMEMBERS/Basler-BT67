@@ -267,7 +267,7 @@ var Engine = {
         ###################################
         #### CYLINDER HEAT TEMPERATURE ####
         ###################################
-	if(getprop("/sim/aero") == "dc-3-jsbsim"){
+	if(getprop("/sim/aero") == "BT-67-jsbsim"){
 	  var thr = getprop("/engines/engine["~eng_num~"]/thrust_lb");
 	}else{
 	  var thr = getprop("/engines/engine["~eng_num~"]/prop-thrust");
@@ -314,7 +314,7 @@ var FakeTrim = func {
   var ElevatorTrim = props.globals.getNode("/controls/flight/elevator-trim").getValue();
   setprop("/surface-positions/elevator-pos-norm", ElevatorPos - ElevatorTrim);
 
-  if(getprop("sim/aero") != "dc-3-jsbsim"){
+  if(getprop("sim/aero") != "BT-67-jsbsim"){
     var AileronPos = props.globals.getNode("/surface-positions/aileron-pos-norm").getValue();
   }else{
     var AileronPos = props.globals.getNode("/surface-positions/left-aileron-pos-norm").getValue();
@@ -327,7 +327,7 @@ var FakeTrim = func {
 
   var RudderPos = props.globals.getNode("/surface-positions/rudder-pos-norm").getValue();
   var RudderTrim = props.globals.getNode("/controls/flight/rudder-trim").getValue();
-  if(getprop("sim/aero") == "dc-3-jsbsim"){
+  if(getprop("sim/aero") == "BT-67-jsbsim"){
     if(RudderTrim < -0.35) RudderTrim = -0.35;
     if(RudderTrim >  0.35) RudderTrim =  0.35;
   }
