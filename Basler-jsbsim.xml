@@ -7,7 +7,7 @@
  <fileheader>
   <author> Aeromatic v 0.95, OOZVY and dany93 </author>
   <filecreationdate> 2015-01-15 </filecreationdate>
-  <version>$Revision: 2015-01-15 $</version>
+  <version>Revision: 2015-01-15 </version>
   <description> Models a Basler BT-76. </description>
  </fileheader>
 
@@ -26,7 +26,7 @@
     engine type:   piston
     engine layout: wings
     yaw damper?    yes
-  Outputs:
+  Outputs
     wing loading:  57.00 lb/sq-ft
     CL-alpha:      4.9 per radian
     CL-0:          0.24
