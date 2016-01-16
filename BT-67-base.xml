@@ -415,7 +415,7 @@
       <file>Aircraft/Basler-BT67/Nasal/paratroopers.nas</file>
     </para>
     <dc3>
-      <file>Aircraft/Basler-BT67/Nasal/dc3.nas</file>
+      <file>Aircraft/Basler-BT67/Nasal/BT67.nas</file>
       <file>Aircraft/Basler-BT67/Nasal/electrical.nas</file>
       <file>Aircraft/Basler-BT67/Nasal/interpolate.nas</file>
       <file>Aircraft/Basler-BT67/Nasal/liveries.nas</file>
