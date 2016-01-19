@@ -90,7 +90,7 @@
   <!-- Effets sur le sol -->
   <!-- Roue avant gauche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -9.554 </x-m>
       <y-m> -2.668 </y-m>
@@ -100,7 +100,7 @@
 
   <!-- Roue avant droite -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m> -9.554 </x-m>
       <y-m>  2.668 </y-m>
@@ -110,7 +110,7 @@
 
   <!-- Roue centrale gauche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m> -2.124 </x-m>
       <y-m> -2.668 </y-m>
@@ -120,7 +120,7 @@
 
   <!-- Roue centrale droite -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground3.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground3.xml</path>
     <offsets>
       <x-m> -2.124 </x-m>
       <y-m>  2.668 </y-m>
@@ -130,7 +130,7 @@
 
   <!-- Trainee gauche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/wakes/wakeGA.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/wakes/wakeGA.xml</path>
     <offsets>
       <x-m> -1.658 </x-m>
       <y-m> -2.668 </y-m>
@@ -143,7 +143,7 @@
 
   <!-- Trainee droite -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/wakes/wakeDA.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/wakes/wakeDA.xml</path>
     <offsets>
       <x-m> -1.658 </x-m>
       <y-m>  2.668 </y-m>
@@ -156,7 +156,7 @@
 
   <!-- Eclaboussures, avant gauche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/wakes/jetGA.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/wakes/jetGA.xml</path>
     <offsets>
       <x-m> -9.515 </x-m>
       <y-m> -2.668 </y-m>
@@ -169,7 +169,7 @@
 
   <!-- Eclaboussures, avant droite -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/wakes/jetDA.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/wakes/jetDA.xml</path>
     <offsets>
       <x-m> -9.515 </x-m>
       <y-m>  2.668 </y-m>
@@ -182,7 +182,7 @@
 
   <!-- Eclaboussures, centre gauche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/wakes/jetmGA.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/wakes/jetmGA.xml</path>
     <offsets>
       <x-m> -2.620 </x-m>
       <y-m> -2.668 </y-m>
@@ -195,7 +195,7 @@
 
   <!-- Eclaboussures, centre droite -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/wakes/jetmDA.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/wakes/jetmDA.xml</path>
     <offsets>
       <x-m> -2.620 </x-m>
       <y-m>  2.668 </y-m>

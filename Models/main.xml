@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <path>dc-3.ac</path>
+  <path>BT-67.ac</path>
 
   <animation>
     <!-- Objets opaques -->
@@ -114,7 +114,7 @@
   </effect-->
 
   <!--<effect>
-    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/model-reflect</inherits-from>
+    <inherits-from>Aircraft/Basler-BT67/Models/Effects/model-reflect</inherits-from>
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
     <object-name>aileronG</object-name>
@@ -150,12 +150,12 @@
 
   <!-- Immatriculatoin -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Immat/immat.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Immat/immat.xml</path>
   </model>
 
   <!-- Cabine -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cabine/cabine.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cabine/cabine.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -165,7 +165,7 @@
 
   <!-- Cockpit -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Cockpit/cockpit.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Cockpit/cockpit.xml</path>
     <offsets>
       <x-m> -8.346 </x-m>
       <y-m>  0.000 </y-m>
@@ -175,7 +175,7 @@
 
   <!-- Moteurs -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Engines/engineG.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Engines/engineG.xml</path>
     <offsets>
       <x-m> -6.542 </x-m>
       <y-m> -2.814 </y-m>
@@ -184,7 +184,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Engines/engineD.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Engines/engineD.xml</path>
     <offsets>
       <x-m> -6.542 </x-m>
       <y-m>  2.814 </y-m>
@@ -233,7 +233,7 @@
 
   <!-- Ailettes -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/ailettesL.xml</path>
+    <path>Aircraft/Basler-BT67/Models/ailettesL.xml</path>
     <offsets>
       <x-m> -6.040 </x-m>
       <y-m> -2.814 </y-m>
@@ -242,7 +242,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/ailettesR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/ailettesR.xml</path>
     <offsets>
       <x-m> -6.040 </x-m>
       <y-m>  2.814 </y-m>
@@ -253,7 +253,7 @@
   <!-- Cranking effects -->
   <!-- Left -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/cranking/crankingL.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/cranking/crankingL.xml</path>
     <offsets>
       <x-m> -4.873 </x-m>
       <y-m> -3.393 </y-m>
@@ -265,7 +265,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/cranking/crankingR.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/cranking/crankingR.xml</path>
     <offsets>
       <x-m> -4.873 </x-m>
       <y-m>  3.393 </y-m>
@@ -278,7 +278,7 @@
 
   <!-- Lighting -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Light/dc-3-lights.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Light/dc-3-lights.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>

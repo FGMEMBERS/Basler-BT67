@@ -76,7 +76,7 @@
   <!-- Effets sur le sol -->
   <!-- Roue gauche -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -4.250 </x-m>
       <y-m> -2.814 </y-m>
@@ -86,7 +86,7 @@
 
   <!-- Roue droite -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m> -4.250 </x-m>
       <y-m>  2.814 </y-m>
@@ -96,7 +96,7 @@
 
   <!-- Roulette de queue -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Basler-BT67/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m>  7.264 </x-m>
       <y-m>  0.000 </y-m>
