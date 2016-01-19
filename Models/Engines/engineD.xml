@@ -2,9 +2,6 @@
 
 <PropertyList>
 
-  <model>
-    <path>Aircraft/Basler-BT67/Models/Engines/engine.xml</path>
-  </model>
 
   <model>
     <path>Aircraft/Basler-BT67/Models/Engines/Propeller/propellerR.xml</path>

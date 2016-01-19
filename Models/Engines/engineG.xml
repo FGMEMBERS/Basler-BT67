@@ -3,10 +3,6 @@
 <PropertyList>
 
   <model>
-    <path>Aircraft/Basler-BT67/Models/Engines/engine.xml</path>
-  </model>
-
-  <model>
     <path>Aircraft/Basler-BT67/Models/Engines/Propeller/propellerL.xml</path>
     <offsets>
       <x-m> -0.610 </x-m>
